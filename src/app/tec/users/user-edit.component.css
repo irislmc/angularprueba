@@ -1,0 +1,9 @@
+form {
+    max-width: 680px;
+    margin: 0 auto;
+}
+.form-control {
+
+    justify-content: space-between;
+    align-items: center;
+}

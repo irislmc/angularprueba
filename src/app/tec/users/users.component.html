@@ -1,0 +1,44 @@
+<div class="container">
+    <h2 class="text-center mb-3">
+        Usuarios
+        <a routerLink="./new" class="btn btn-secondary text-white" style="cursor: pointer;">Nuevo</a>
+    </h2>
+  
+    <table class="table table-striped text-center">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Usuario</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Fecha Creación</th>
+                <th scope="col">Fecha Actualización</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <th>{{ user.idx }}</th>
+                <td>{{ user.name}}</td>
+                <td>{{ user.lastname}}</td>
+                <td>{{ user.username}}</td>
+                <td>{{ user.isblock === 1 ? 'Desbloqueado' : 'Bloqueado' }}</td>
+                <td>{{ user.direccion}}</td>
+                <td>{{ user.fechcreated | date: 'dd/MM/yyyy' }}</td>
+                <td>{{ user.fechupdate | date: 'dd/MM/yyyy' }}</td>
+                <td>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-sm mr-2" type="button" (click)="onUpdateUser(user)">Actualizar</button>
+                        <button class="btn btn-danger btn-sm" (click)="onRemoveUser(user)" type="button">Eliminar</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-center">
+      <ngb-pagination [collectionSize]="collectionSize" [(page)]="page" [pageSize]="pageSize">
+      </ngb-pagination>
+  </div>
+  </div>

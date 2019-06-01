@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Elvira",
+      "lastname": "Gonzales",
+      "username": "egonzales",
+      "password": "123456",
+      "isblock": 1,
+      "direccion": "Av.Canada",
+      "fechcreated": 1558021184699,
+      "fechupdate": 1558163825056
+    },
+    {
+      "id": 2,
+      "name": "Rodrigo",
+      "lastname": "Morales",
+      "username": "rmorales",
+      "password": "123456",
+      "isblock": 1,
+      "direccion": "Av.Rosa Toro",
+      "fechcreated": 1558021172800,
+      "fechupdate": 1558155228836
+    },
+    {
+      "id": 3,
+      "name": "Laura",
+      "lastname": "Caceres",
+      "username": "lcaceres",
+      "password": "123456",
+      "isblock": 2,
+      "direccion": "Av. Canaval y Moreira",
+      "fechcreated": 1558021172800,
+      "fechupdate": 1559407741499
+    },
+    {
+      "id": 4,
+      "name": "Elena",
+      "lastname": "Zeballos",
+      "username": "ezeballos",
+      "password": "123456",
+      "isblock": 1,
+      "direccion": "Av. Bolivar",
+      "fechcreated": 1558158964922,
+      "fechupdate": 1558158964922
+    },
+    {
+      "name": " Rosa",
+      "lastname": "Ferrer",
+      "username": "rferrer",
+      "password": "123456",
+      "isblock": 1,
+      "direccion": "Av. Brasil",
+      "fechcreated": 1559406512201,
+      "fechupdate": 1559406512201,
+      "id": 5
+    },
+    {
+      "name": "Mauricio",
+      "lastname": "Jimenez",
+      "username": "mjimenez",
+      "password": "123456",
+      "isblock": 1,
+      "direccion": "Av. Brasil 333",
+      "fechcreated": 1559407569771,
+      "fechupdate": 1559407569771,
+      "id": 7
+    },
+    {
+      "name": "Elena ",
+      "lastname": "Salas",
+      "username": "esalas",
+      "password": "123456",
+      "isblock": 2,
+      "direccion": "Av. Perú 4535",
+      "fechcreated": 1559407614829,
+      "fechupdate": 1559433448249,
+      "id": 8
+    },
+    {
+      "name": "Usuario Test",
+      "lastname": "Gamarra",
+      "username": "ugamarra",
+      "password": "123456",
+      "isblock": 2,
+      "direccion": "Av. Pinto 234",
+      "fechcreated": 1559433433950,
+      "fechupdate": 1559433433950,
+      "id": 9
+    }
+  ]
+}
